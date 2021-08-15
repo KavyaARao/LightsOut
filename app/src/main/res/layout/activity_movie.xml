@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:scrollbarSize="15sp"
+    tools:context=".Movie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/recent"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/moviee" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="242dp"
+                android:layout_height="41dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="76dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginRight="44dp"
+                android:gravity="center"
+                android:text="LIGHT'S OUT"
+                android:textColor="@android:color/background_light"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/archivo_black"
+                app:layout_constraintVertical_bias="0.72" />
+
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="217dp"
+                android:layout_height="37dp"
+                android:layout_gravity="bottom|end"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="55dp"
+                android:layout_marginRight="60dp"
+                android:layout_marginBottom="0dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="sans-serif"
+                android:foregroundGravity="bottom|right"
+                android:gravity="bottom|end"
+                android:soundEffectsEnabled="false"
+                android:text="logout"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="30dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/recent1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/movies" />
+
+            <TextView
+                android:id="@+id/movname"
+                android:layout_width="303dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="76dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginRight="44dp"
+                android:gravity="center"
+                android:text="Movie Details"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/archivo_black"
+                app:layout_constraintVertical_bias="0.72" />
+        </FrameLayout>
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="30dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/movgenre"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Genre"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/language"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/platform"
+                android:layout_width="125dp"
+                android:layout_height="wrap_content"
+                android:text="Platform"
+                android:textColor="#000000" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="about the movie"
+            android:textColor="#000000" />
+        <TextView
+            android:id="@+id/cast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Platform"
+            android:textColor="#000000" />
+
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="30dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:scaleType="fitXY"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/movies20" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="303dp"
+                android:layout_height="39dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginLeft="76dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="44dp"
+                android:layout_marginRight="44dp"
+                android:gravity="center"
+                android:text="REVIEWS"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/archivo_black"
+                app:layout_constraintVertical_bias="0.72" />
+        </FrameLayout>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="30dp" />
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/reviews"
+            android:focusable="false"
+            android:focusableInTouchMode="false"/>
+
+        <LinearLayout
+            android:descendantFocusability="blocksDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/back"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                app:backgroundTint="#C71585"
+                app:srcCompat="?attr/actionModeCloseDrawable" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/add"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="270dp"
+                android:layout_marginBottom="10dp"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                app:backgroundTint="#C71585"
+                app:srcCompat="@drawable/pluswhite"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

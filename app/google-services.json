@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "485320060948",
+    "firebase_url": "https://lightsout-2882-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "lightsout-2882",
+    "storage_bucket": "lightsout-2882.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:485320060948:android:b04ab52640329d06d83701",
+        "android_client_info": {
+          "package_name": "com.example.lightsout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "485320060948-is1cp3mkli8vfnt41ec3fn58h7gjjr2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfa_e1zos9CGHymVcV59B75UacFR2Vumo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "485320060948-is1cp3mkli8vfnt41ec3fn58h7gjjr2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
